@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoFactorAuthentification_SMS", "TwoFactorAuthentification_SMS\TwoFactorAuthentification_SMS.csproj", "{12AF04D7-34E1-461C-B427-9C9E9E0E8501}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12AF04D7-34E1-461C-B427-9C9E9E0E8501}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12AF04D7-34E1-461C-B427-9C9E9E0E8501}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12AF04D7-34E1-461C-B427-9C9E9E0E8501}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12AF04D7-34E1-461C-B427-9C9E9E0E8501}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {621F87E6-9ED7-40B2-B579-09CFCA6D3361}
+	EndGlobalSection
+EndGlobal
