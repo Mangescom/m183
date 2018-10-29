@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="UTF-8">
+	<title>M183 JPO 03</title>
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet">
+	<link href="default.css" rel="stylesheet" type="text/css" media="all">
+	<link href="fonts.css" rel="stylesheet" type="text/css" media="all">
+</head>
+<body>
+<div id="header-wrapper">
+	<div id="header" class="container">
+		<div id="logo">
+			<h1><a href="#">M183</a></h1>
+		</div>
+		
+	</div>
+	
+</div>
+<div id="wrapper">
+	<div id="page" class="container">
+		<div id="content">
+			<div class="title">
+				<h2>M183</h2>
+				<span class="byline">Applikationssicherheit Implementieren</span> </div>
+			<p><img src="images/phone.jpg" alt="" class="image image-full" /> </p>
+			<h1>Ihr letzter Tasteninput:</h1>
+			<h1 style="font-size:90px;" id="log"></h1>
+		</div>
+		<div id="sidebar">
+			<ul class="style1">
+				<li class="first">
+					<h3>Handlungsziele:</h3>
+					<p>
+						1) Aktuelle Bedrohungen erkennen und erläutern können. Aktuelle Informationen zum Thema (Erkennung und Gegenmassnahmen) beschaffen und mögliche Auswirkungen aufzeigen und erklären können.<br/>
+						2) Sicherheitslücken und ihre Ursachen in einer Applikation erkennen  können. Gegenmassnahmen vorschlagen und implementieren können.<br/>
+						3) Mechanismen  für die Authentifizierung und Autorisierung umsetzen können.<br/>
+						4) Sicherheitsrelevante Aspekte bei Entwurf, Implementierung und Inbetriebnahme berücksichtigen.<br/>
+						5) Informationen für Auditing und Logging generieren. Auswertungen und Alarme definieren und implementieren.<br/>
+					</p>
+				</li>
+				<li>
+					<h3>Handlungsnotwendige Kenntnisse:</h3>
+					<p>
+						1.1 Kennt Informationsquellen zu aktuellen Bedrohungen. <br/>
+						1.2 Kennt Sicherheitslücken und mögliche Folgen von Angriffen. <br/>
+						2.1 Kennt mögliche Ursachen von Sicherheitslücken in Applikationen. <br/>
+						2.2 Kennt ein Vorgehen zur Identifikation von Sicherheitslücken in Applikationen. <br/>
+						2.3 Kennt geeignete Gegenmassnahmen zu den verschiedenen Kategorien von Bedrohungen und wie diese implementiert werden. <br/>
+						3.1 Kennt Authentifizierungsmechanismen und deren Funktionsweise. <br/>
+						3.2 Kennt Verschlüsselungsmechanismen und deren Einbindung in der Applikation. <br/>
+						3.3 Kennt verschiedene Verfahren zur Zugriffssteuerung. <br/>
+						4.1 Kennt sicherheitsrelevante Aspekte beim Entwurf von Applikationen. <br/>
+						4.2 Kennt Techniken bei der Realisierung zur Vermeidung von Sicherheitslücken (z.B. Input/ Output Validierung, Defensives Programmieren, Session-Management, Error Handling). <br/>
+						4.3 Kennt ein Vorgehen für das sichere Deployment von Applikationen. <br/>
+						5.1 Kennt Sinn, Aufbau und Inhalt eines Logs. <br/>
+						5.2 Kennt Sinn, Aufbau und Inhalt eines Audit-Trails. <br/>
+						5.3 Kennt mögliche Formen der Alarmierung und Regeln für eine Alarmauslösung.<br/>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div id="copyright" class="container">
+	<p>&copy 2018; Jonas Portmann. All rights reserved. | Photos by <a href="http://unsplash.com/">unsplash</a> | Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
+</div>
+<script>
+document.addEventListener("keydown", function (e) {
+	var character_code = e.which || e.keyCode;
+	var character_value = String.fromCharCode(character_code);
+	console.log(character_code + " " + character_value);
+	document.getElementById("log").innerHTML = character_value;
+});
+</script>
+</body>
+</html>
