@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "SMS Notification";
+}
+<div id="form-header">
+    <h2>@ViewBag.Title.</h2>
+    <h3>Please enter your details to get notified:</h3>
+</div>
+
+<form action="./Home/Login" method="post">
+    Username:
+    <input type="text" name="username"/><br/>
+    Password:
+    <input type="password" name="password"/><br/>
+    <input type="submit" value="login"/>
+    <h5>@ViewBag.Error</h5>
+</form>
