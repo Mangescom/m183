@@ -1,0 +1,95 @@
+body{
+margin:0;
+padding:0;
+font-family: "Roboto",Arial,sans-serif;
+}
+
+.form-center {
+    background-color: #fff;
+    padding: 60px 120px;
+    text-align: center;
+}
+
+form {
+    display: block;
+    background-color: #fff;
+    padding: 60px 120px;
+    text-align: center;
+    left:calc(50% - 370px);
+}
+
+.frm_form_field {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+frm_form_field > label {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    margin-bottom: 0;
+    pointer-events: none;
+    font-size: 16px;
+    font-size: 1rem;
+    transition: .3s ease all;
+    -webkit-transform-style: preserve-3d;
+}
+
+input[type="text"], input[type="tel"], input[type="email"], input[type="url"], input[type="date"], input[type="number"], input[type="search"], input[type="password"] {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 22px;
+    line-height: 1.375rem;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: transparent;
+    border-radius: 0px;
+    box-shadow: none;
+    border: none;
+        border-bottom-width: medium;
+        border-bottom-style: none;
+        border-bottom-color: currentcolor;
+    border-bottom: 1px solid #c8c8c8;
+}
+
+input[type="submit"]:focus, button:not(.dropdown-toggle):not(.is-nav-toggle):focus {
+    outline: none;
+}
+input[type="submit"], button:not(.dropdown-toggle):not(.is-nav-toggle) {
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    background-color: transparent;
+    font-size: 14px;
+    font-size: .875rem;
+    font-weight: 500;
+    color: #000;
+    padding: 12px 20px;
+    border: 3px solid #fc0;
+        border-image-source: none;
+        border-image-slice: 100%;
+        border-image-width: 1;
+        border-image-outset: 0;
+        border-image-repeat: stretch;
+    border-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwgMjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NzE1QUJCRjlERjIzMTFFNjhDNjk5NjgyOUMzQzNDMkMiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NzE1QUJCRkFERjIzMTFFNjhDNjk5NjgyOUMzQzNDMkMiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo3MTVBQkJGN0RGMjMxMUU2OEM2OTk2ODI5QzNDM0MyQyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo3MTVBQkJGOERGMjMxMUU2OEM2OTk2ODI5QzNDM0MyQyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PsOcMzIAAADASURBVHja7JpbCsJQDEQn0EXYJbkOxV25D12Qj0W0jbmUCv6IP4UmnkCg3L/hzITeNuZX7SWdo3vlrEf0wfyie2IRbzGdT5ZdRKu+0/RxYMkE+PIQQkwVKqylGkJUR0gVa42GtSACkb8gMpaZWoIIGVmHSJWpNTC1yAjj96u1BqwFEYgQdqwFETLCVZfXeC5WZITxCxEyIj5iQwQiPxDBWhuzVtH/7J7ZWm3fKfuG0LOtOR01L57tkoq4RZ9eAgwAkNBWXw2kR+UAAAAASUVORK5CYII=") 3 stretch;
+    border-radius: 2px;
+    transition: all .3s;
+    transform: translateX(0);
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.frm_form_field > label {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    margin-bottom: 0;
+    pointer-events: none;
+    font-size: 16px;
+    font-size: 1rem;
+    transition: .3s ease all;
+    -webkit-transform-style: preserve-3d;
+}

